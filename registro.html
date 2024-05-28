@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <main class="contenedor">
+        <h1>Registrarse</h1>
+        <form id="registerForm" class="formulario">
+            <input type="text" id="nombre" class="formulario__campo" placeholder="Nombre" required>
+            <input type="text" id="apellido" class="formulario__campo" placeholder="Apellido" required>
+            <input type="email" id="registerEmail" class="formulario__campo" placeholder="Correo electrónico" required>
+            <input type="password" id="registerPassword" class="formulario__campo" placeholder="Contraseña" required>
+            <input type="submit" class="formulario__submit" value="Registrarse">
+        </form>
+        <p id="mensajeErrorRegistro" class="error"></p>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos reservados 2024</p>
+    </footer>
+
+    <script src="login.js"></script>
+</body>
+</html>

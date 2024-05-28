@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <main class="contenedor">
+        <h1>Iniciar Sesión</h1>
+        <form id="loginForm" class="formulario">
+            <input type="email" id="email" class="formulario__campo" placeholder="Correo electrónico" required>
+            <input type="password" id="password" class="formulario__campo" placeholder="Contraseña" required>
+            <input type="submit" class="formulario__submit" value="Iniciar Sesión">
+        </form>
+        <p id="mensajeErrorLogin" class="error"></p>
+        <p>¿No tienes una cuenta? <a href="registro.html">Regístrate aquí</a></p>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos reservados 2024</p>
+    </footer>
+
+    <script src="login.js"></script>
+</body>
+</html>
+
